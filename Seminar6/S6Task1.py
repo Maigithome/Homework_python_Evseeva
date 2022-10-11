@@ -59,10 +59,10 @@ while game_over == False:
     # 2. Спросим у играющего куда делать ход
     if player1 == True:
         symbol = "X"
-        step = int(input("Игрок Х, ваш ход: "))
+        step = int(input("Игрок Х, ваш ход, укажите номер ячейки: "))
     else:
         symbol = "O"
-        step = int(input("Игрок О, ваш ход: "))
+        step = int(input("Игрок О, ваш ход, укажите номер ячейки: "))
  
     step_field(step,symbol) # делаем ход в указанную ячейку
 
