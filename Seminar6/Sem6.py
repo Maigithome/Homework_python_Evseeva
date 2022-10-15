@@ -93,8 +93,8 @@ st_list = [el for el in st_list if el != None] #'это часть кода
 # крестики-нолики
 
 field = [[1, 2, 3],
-             [4, 5, 6],
-             [7, 8, 9]]
+        [4, 5, 6],
+        [7, 8, 9]]
 
 def print_field(field):
     for el in field:
@@ -111,6 +111,9 @@ print_field(field)
 a = int(input('Введите цифру, куда хотите поставить крестик: '))
 fill_num_in_field(field, a)
 print_field(field)
+
+
+
 
 print("*" * 10, " Игра Крестики-нолики для двух игроков ", "*" * 10)
 
